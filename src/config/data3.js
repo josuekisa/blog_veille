@@ -1,6 +1,6 @@
 export const blogList3 = [
     {
-      id: 1,
+      id: 12,
       title: 'Swift Programming Language',
       category: 'development',
       subCategory: ['frontend', 'ui/ux', 'design'],
@@ -12,7 +12,7 @@ export const blogList3 = [
       cover: '/assets/images/designer-1.jpg',
     },
     {
-      id: 2,
+      id: 13,
       title: 'Getting Started with Swift',
       category: 'travel',
       subCategory: ['vacation', 'holidays', 'sight seeing'],
@@ -24,7 +24,7 @@ export const blogList3 = [
       cover: '/assets/images/f67396fc3cfce63a28e07ebb35d974ac.jpg',
     },
     {
-      id: 3,
+      id: 14,
       title: 'react native vs swift (medium)',
       category: 'shopping',
       subCategory: ['e-commerce store', 'clothing', 'shopping store'],
@@ -36,7 +36,7 @@ export const blogList3 = [
       cover: '/assets/images/fQwuyKJ9qxjSbr6REcgtmW-1200-80.jpg',
     },
     {
-      id: 4,
+      id: 15,
       title: 'swift vs kotlin',
       category: 'adventure',
       subCategory: ['adrenaline', 'stay-fit', 'lifestyle'],
@@ -45,15 +45,29 @@ export const blogList3 = [
       authorName: 'John Doe',
       authorAvatar: '/assets/images/author.jpg',
       createdAt: 'June 03, 2021',
-      cover: '/assets/images/graphic-design-trends.png',
+      cover: '/assets/images/swiftkotlin.png',
     },
     {
-      id: 5,
-      title: 'The best C# articles from 2019',
+      id: 16,
+      title: 'Comment déployer votre application sur un iPhone',
       category: 'cooking',
       subCategory: ['bbq', 'food', 'lifestyle'],
       description:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "Cet article explique comment déployer une application mobile iOS sur un appareil réel pour effectuer des tests et évaluer les problèmes de performance. Il souligne que les bogues peuvent ne pas apparaître sur un simulateur d'iPhone, d'où la nécessité de tester sur un appareil réel. Cependant, cela nécessite des étapes supplémentaires pour garantir la sécurité et l'identification de l'application par Apple. Les exigences comprennent l'adhésion au programme Apple iOS Developer et la possession d'un appareil iOS réel. Le processus implique de demander des certificats de développement et de distribution, de configurer le périphérique pour le développement, de créer un profil d'approvisionnement pour l'application et de s'assurer que l'application utilise ce profil. Enfin, l'article explique comment déployer l'application sur l'appareil. En cas de problèmes, des conseils sont donnés pour résoudre les problèmes éventuels.",
+
+      authorName: 'John Doe',
+      authorAvatar: '/assets/images/author.jpg',
+      createdAt: 'June 03, 2021',
+      cover: '/assets/images/make-it-personal.jpg',
+    },
+    {
+      id: 17,
+      title: "Le langage Swift d'Apple peine à séduire les développeurs",
+      category: 'cooking',
+      subCategory: ['bbq', 'food', 'lifestyle'],
+      description:
+        "Swift, le langage de programmation d'Apple, perd en popularité selon l'indice Tiobe. Les développeurs se tournent vers des frameworks multiplateformes tels que Xamarin, Cordova et Ionic, qui offrent une compatibilité avec différentes plateformes. La limitation de Swift aux produits Apple et l'intérêt croissant pour les environnements multiplateformes expliquent cette baisse. L'indice PyPL confirme cette tendance, mais Swift se classe toujours à la 10e place.",
+        
       authorName: 'John Doe',
       authorAvatar: '/assets/images/author.jpg',
       createdAt: 'June 03, 2021',

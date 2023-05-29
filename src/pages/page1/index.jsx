@@ -46,9 +46,7 @@ const Page1 = () => {
 
       {/* Blog List & Empty View */}
       {!blogs.length ? <EmptyList /> : <BlogList blogs={blogs} />}
-      <footer>
-        <h1>hey chico</h1>
-      </footer>
+     
     </div>
   );
 };

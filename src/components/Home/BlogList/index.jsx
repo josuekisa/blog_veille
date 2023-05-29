@@ -8,6 +8,7 @@ const BlogList = ({ blogs }) => {
       {blogs.map((blog) => (
         <BlogItem blog={blog} />
       ))}
+      <h1></h1>
     </div>
   );
 };

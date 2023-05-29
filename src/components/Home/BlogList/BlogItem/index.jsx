@@ -13,6 +13,7 @@ const BlogItem = ({
     cover,
     category,
     id,
+    link,
   },
 }) => {
   return (
