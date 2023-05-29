@@ -42,15 +42,10 @@ const Home = () => {
         formSubmit={handleSearchBar}
         handleSearchKey={(e) => setSearchKey(e.target.value)}
       />
-    <section>
 
-     
-    </section>
       {/* Blog List & Empty View */}
-    
-      <footer>
-        <h1>hey meeeeeeeec</h1>
-      </footer>
+      {!blogs.length ? <EmptyList /> : <BlogList blogs={blogs} />}
+     
     </div>
   );
 };

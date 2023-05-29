@@ -3,7 +3,7 @@ import './styles.css';
 import Navbar from '../Navbar/Navbar.jsx'
 const Header = () => (
   <header className='home-header'>
-     <Navbar/>
+   
     <h2>Inc. This Morning</h2>
     <h1>
       <span>“</span> Blog Veille Technologique <span>”</span>

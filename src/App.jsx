@@ -14,9 +14,6 @@ const App = () => {
       <Switch>
         <Route path='/' exact component={Home} />
         <Route path='/blog/:id' component={Blog} />
-        <Route path="/Csharp" component={Page1} />
-        <Route path="/Kotlin" component={Page2} />
-        <Route path="/Swift" component={Page3} />
         <Redirect to='/' />
       </Switch>
     </div>
