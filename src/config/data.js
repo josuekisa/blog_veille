@@ -9,7 +9,7 @@ export const blogList = [
     authorName: 'Thibaut Kowalski',
     authorAvatar: '/assets/images/author.jpg',
     createdAt: '21 septembre 2021',
-    cover: '/assets/images/Csharp_logo.png',
+    cover: '/assets/images/csharp_api.jpg',
   },
   {
     id: 2,
@@ -22,7 +22,7 @@ export const blogList = [
       authorName: 'Codecademy Team',
     authorAvatar: '/assets/images/author.jpg',
     createdAt: '',
-    cover: '/assets/images/net.png',
+    cover: '/assets/images/dotnet-ar21.png',
   },
   {
     id: 3,
@@ -82,7 +82,7 @@ export const blogList = [
     authorName: 'codeacademy',
     authorAvatar: '/assets/images/author.jpg',
     createdAt: '',
-    cover: '/assets/images/kotlin.jpg',
+    cover: '/assets/images/kot.jpg',
   },
   {
     id: 8,
@@ -94,7 +94,7 @@ export const blogList = [
     authorName: 'codeacademy',
     authorAvatar: '/assets/images/author.jpg',
     createdAt: 'June 03, 2021',
-    cover: '/assets/images/ij.png',
+    cover: '/assets/images/inte2.png',
   },
   {
     id: 9,
