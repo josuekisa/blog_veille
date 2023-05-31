@@ -13,7 +13,7 @@ const BlogItem = ({
     cover,
     category,
     id,
-    link,
+    link
   },
 }) => {
   return (
@@ -22,6 +22,7 @@ const BlogItem = ({
       <Chip label={category} />
       <h3>{title}</h3>
       <p className='blogItem-desc'>{description}</p>
+      <Link>{link}</Link>
       <footer>
         <div className='blogItem-author'>
           <img src={authorAvatar} alt='avatar' />

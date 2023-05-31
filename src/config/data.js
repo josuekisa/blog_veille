@@ -2,20 +2,21 @@ export const blogList = [
   {
     id: 1,
     title: 'Pourquoi apprendre le langage C# ? 	 ',
-    category: 'development',
-    subCategory: ['frontend', 'ui/ux', 'design'],
+    category: 'Developpement C#',
+    subCategory: ['C#'],
     description:
       "Le C# est un langage de programmation polyvalent et moderne, facile à apprendre et à adapter. Il offre un large éventail de fonctionnalités et de bibliothèques pour développer différents types de logiciels. Grâce à sa popularité et au soutien de Microsoft, il bénéficie d'une communauté solide. Le C# peut être utilisé pour créer des applications Windows, mobiles, web, ainsi que des jeux vidéo avec Unity. En résumé, le C# est un choix puissant pour les développeurs en raison de sa facilité d'apprentissage, de sa flexibilité et de ses nombreuses applications possibles.",
-    authorName: 'Thibaut Kowalski',
+    link:"https://easypartner.fr/blog/pourquoi-apprendre-c/",
+      authorName: 'Thibaut Kowalski',
     authorAvatar: '/assets/images/author.jpg',
     createdAt: '21 septembre 2021',
     cover: '/assets/images/csharp_api.jpg',
   },
   {
     id: 2,
-    title: 'what is net?',
-    category: 'travel',
-    subCategory: ['vacation', 'holidays', 'sight seeing'],
+    title: 'what is .NET?',
+    category: 'Developpement C#',
+    subCategory: [],
     description:
       "Cet article explique ce qu'est .NET, une plateforme de développement créée par Microsoft, qui permet de construire différents types d'applications. .NET est l'outil qui permet de construire et d'exécuter des programmes en C#. Il comprend un ensemble de programmes qui traduisent le code C# en instructions compréhensibles par l'ordinateur, fournissent des utilitaires pour le développement de logiciels, tels que l'affichage de texte à l'écran et la récupération de l'heure actuelle, et définissent un ensemble de types de données facilitant le stockage d'informations dans les programmes. Il existe différentes versions de .NET, dont le .NET Framework qui fonctionne uniquement sur Windows, et le .NET Core qui est une version multiplateforme compatible avec Windows, MacOS et Linux. L'article indique que la version utilisée dans le cadre du chemin d'apprentissage est le .NET Core, qui est plus flexible et bénéficie d'améliorations constantes de la part de Microsoft. Il est également précisé que Microsoft prévoit de renommer .NET Core en .NET à partir de la fin de l'année 2020.",
     link:"https://ios.developpez.com/tutoriels/comment-deployer-votre-application-sur-un-iPhone/",
@@ -27,11 +28,12 @@ export const blogList = [
   {
     id: 3,
     title: 'Meilleures pratiques pour un code propre',
-    category: 'Programming',
-    subCategory: ['e-commerce store', 'clothing', 'shopping store'],
+    category: 'Developpement C#',
+    subCategory: [],
     description:
       "Cet article aborde les principes clés du code propre, qui met l'accent sur la lisibilité, la maintenabilité et la simplicité du code. Il souligne les avantages d'écrire du code propre, tels que la facilité de lecture, la facilité de maintenance, la scalabilité, la collaboration, l'efficacité, le débogage, la réutilisabilité, l'utilisation de noms de variables et de méthodes significatifs, le formatage cohérent, la division des méthodes en petites parties, l'utilisation de classes et de la polymorphie, la gestion des exceptions, l'utilisation de messages d'erreur descriptifs et les tests unitaires. Ces principes s'appliquent notamment au langage de programmation C#.",
-    authorName: ' Shubhadeep Chattopadhyay ',
+    link:"https://blog.cellenza.com/developpement-specifique/decouvrez-les-nouveautes-de-c11/",
+      authorName: ' Shubhadeep Chattopadhyay ',
     authorAvatar: '/assets/images/author.jpg',
     createdAt: '23 Mars 2023',
     cover: '/assets/images/fQwuyKJ9qxjSbr6REcgtmW-1200-80.jpg',
@@ -39,11 +41,12 @@ export const blogList = [
   {
     id: 4,
     title: 'C# 12 is coming ',
-    category: 'adventure',
-    subCategory: ['adrenaline', 'stay-fit', 'lifestyle'],
+    category: 'Developpement C#',
+    subCategory: [],
     description:
       "Cet article présente les nouvelles fonctionnalités de C# 12 Preview annoncées par Microsoft. Les principales caractéristiques incluent : Constructeurs principaux pour les classes et les structures non-enregistrements : Ces constructeurs permettent de réduire le code redondant et facilitent l'initialisation des propriétés ainsi que l'utilisation des paramètres du constructeur dans les méthodes et les accesseurs.Directives using pour des types supplémentaires : Cette fonctionnalité permet de créer des alias pour des types tels que des tuples ou des tableaux, ce qui simplifie leur utilisation dans le code.Valeurs par défaut pour les expressions lambda : Il est désormais possible de spécifier des valeurs par défaut pour les paramètres des expressions lambda, ce qui rend le code plus flexible et concis.Ces nouvelles fonctionnalités permettent d'écrire un code plus concis et lisible, et facilitent la tâche des développeurs. Microsoft continue d'améliorer le langage C# pour le rendre plus efficace et convivial. On peut s'attendre à de nouvelles avancées dans le futur.",
-    authorName: 'Juan Alberto España Garcia',
+    link:"https://medium.com/bytehide/csharp-12-is-coming-40fb1971b4ff",
+      authorName: 'Juan Alberto España Garcia',
     authorAvatar: '/assets/images/author.jpg',
     createdAt: '17 avril 2023',
     cover: '/assets/images/csharp12.png',
@@ -51,11 +54,12 @@ export const blogList = [
   {
     id: 5,
     title: '7 erreurs dangereuses et faciles à commettre en C#/.NET',
-    category: 'cooking',
-    subCategory: ['bbq', 'food', 'lifestyle'],
+    category: 'Developpement C#',
+    subCategory: [],
     description:
       "Cet article souligne sept erreurs dangereuses courantes en C#/.NET :  Ne pas comprendre l'exécution différée.Supposer que le type Dictionary conserve l'ordre des éléments.Ne pas considérer la sécurité des threads., Abuser du chargement différé avec LINQ.Ne pas comprendre comment les requêtes LINQ to SQL/Entity Framework sont traduites.Erreur d'arrondi avec Math.Round.Utilisation de la classe DBNull pour les valeurs NULL.Ces erreurs peuvent entraîner des bugs et des problèmes de performance. Il est important de les éviter pour écrire un code solide en C#/.NET.",
-    authorName: 'Chris St Clair',
+    link:"https://chrisstclair.co.uk/7-dangerous-mistakes-in-c-net-that-are-easy-to-make/",
+      authorName: 'Chris St Clair',
     authorAvatar: '/assets/images/author.jpg',
     createdAt: 'June 03, 2019',
     cover: '/assets/images/make-it-personal.jpg',
@@ -63,11 +67,13 @@ export const blogList = [
   {
     id: 6,
     title: 'C# : la fonction Source Generators dope les performances de .Net 5',
-    category: 'cooking',
-    subCategory: ['bbq', 'food', 'lifestyle'],
+    category: 'Developpement C#',
+    subCategory: [],
     description:
       "Microsoft a annoncé une nouvelle fonctionnalité appelée Source Generators pour le compilateur C#. Cette fonction permet d'inspecter le code et de générer des fichiers sources supplémentaires qui peuvent être ajoutés à la compilation. Selon Microsoft, cette fonctionnalité peut améliorer les performances dans différents scénarios. Les développeurs peuvent utiliser Source Generators pour récupérer le code en cours de compilation, générer des fichiers source C# supplémentaires et tirer parti de la réflexion de runtime, de la typage fort et de l'optimisation de la compilation. Cette fonctionnalité sera intégrée à la version 9.0 du langage C#. Les développeurs peuvent y accéder en installant les dernières previews de .NET 5 et de Visual Studio.",
-    authorName: 'Paul Krill',
+    
+    link:"https://www.lemondeinformatique.fr/actualites/lire-c-la-fonction-source-generators-dope-les-performances-de-net-5-79063.html",
+      authorName: 'Paul Krill',
     authorAvatar: '/assets/images/author.jpg',
     createdAt: '12 mai 2020',
     cover: '/assets/images/net5.png',
@@ -75,11 +81,12 @@ export const blogList = [
   {
     id: 7,
     title: 'from editor to output',
-    category: 'development',
-    subCategory: ['frontend', 'ui/ux', 'design'],
+    category: 'Developpement Kotlin',
+    subCategory: [],
     description:
       "Cet article explique le processus qui se produit lorsque vous exécutez un programme Kotlin. Le compilateur évalue le code, le traduit en bytecode Java et le transmet à la machine virtuelle Java (JVM) pour exécution. Les erreurs sont détectées pendant la compilation. Si aucune erreur n'est présente, le code est exécuté par la JVM. Si vous utilisez un IDE sans prise en charge Kotlin, vous pouvez compiler et exécuter le code manuellement à l'aide du terminal Bash.",
-    authorName: 'codeacademy',
+    link:"https://www.codecademy.com/article/learn-kotlin-from-editor-to-output",
+      authorName: 'codeacademy',
     authorAvatar: '/assets/images/author.jpg',
     createdAt: '',
     cover: '/assets/images/kot.jpg',
@@ -87,11 +94,12 @@ export const blogList = [
   {
     id: 8,
     title: 'Getting Started with IntelliJ',
-    category: 'travel',
-    subCategory: ['vacation', 'holidays', 'sight seeing'],
+    category: 'Developpement Kotlin',
+    subCategory: [],
     description:
       "Cet article vous guide à travers le processus d'installation et de configuration d'IntelliJ IDEA sur votre machine locale. IntelliJ IDEA est un environnement de développement intégré (IDE) créé par JetBrains, conçu pour faciliter le développement de logiciels dans différentes langues. L'article explique comment télécharger et installer IntelliJ IDEA, en fournissant des instructions spécifiques pour les utilisateurs de Mac et de Windows. Il vous apprend également comment configurer votre premier projet Kotlin dans l'IDE et exécuter un programme Kotlin de base. L'accent est mis sur les fonctionnalités offertes par IntelliJ IDEA, telles que l'achèvement de code, le débogage en ligne, les correctifs rapides et les raccourcis clavier, qui aident à améliorer l'expérience de développement et à réduire les erreurs. En fin de compte, l'article souligne les avantages d'utiliser IntelliJ IDEA pour faciliter et accélérer le processus de développement de logiciels dans divers langages.",
-    authorName: 'codeacademy',
+    link:"https://www.codecademy.com/article/kotlin-getting-started-with-intellij",
+      authorName: 'codeacademy',
     authorAvatar: '/assets/images/author.jpg',
     createdAt: 'June 03, 2021',
     cover: '/assets/images/inte2.png',
@@ -99,11 +107,12 @@ export const blogList = [
   {
     id: 9,
     title: 'Kotlin in vscode',
-    category: 'shopping',
-    subCategory: ['e-commerce store', 'clothing', 'shopping store'],
+    category: 'Developpement Kotlin',
+    subCategory: [],
     description:
       "Cet article met en évidence la popularité croissante de Kotlin en tant que langage de programmation de premier ordre pour le développement d'applications Android. Il explique les exigences du système pour installer et exécuter Kotlin, telles que le système d'exploitation macOS 64 bits et un espace disque de 700 Mo. L'article présente également deux extensions essentielles pour le développement Kotlin dans Visual Studio Code (VS Code) : l'extension Kotlin Language, qui fournit une prise en charge du langage Kotlin avec des fonctionnalités telles que la coloration syntaxique et les raccourcis de code, et l'extension Code Runner, qui permet aux utilisateurs de VS Code d'exécuter des extraits de code ou des fichiers de code dans plusieurs langages, y compris Kotlin. L'article explique comment installer ces extensions et fournit un exemple de code Kotlin et sa compilation en utilisant Code Runner. Il souligne que Code Runner permet d'exécuter rapidement le code Kotlin en utilisant une série de commandes. En conclusion, Kotlin est présenté comme un langage de programmation populaire pour le développement Android, et les extensions Kotlin Language et Code Runner dans VS Code offrent des fonctionnalités pratiques pour les développeurs Kotlin.",
-    authorName: 'Laxman Sahni',
+    link:"https://medium.com/@agavatar/programming-with-kotlin-in-visual-studio-code-1d745d6b4ad1",    
+      authorName: 'Laxman Sahni',
     authorAvatar: '/assets/images/author.jpg',
     createdAt: '2 juillet 2018',
     cover: '/assets/images/maxresdefault.jpg',
@@ -111,10 +120,11 @@ export const blogList = [
   {
     id: 10,
     title: 'Kotlin Multiplatform',
-    category: 'adventure',
-    subCategory: ['adrenaline', 'stay-fit', 'lifestyle'],
+    category: 'Developpement Kotlin',
+    subCategory: [],
     description:
       "Cet article présente les avantages et l'expérience d'une équipe qui a adopté KMM (Kotlin Multiplatform Mobile) pour le développement d'applications mobiles multiplateformes. KMM permet de partager du code entre iOS et Android, ce qui réduit les efforts de développement et de test. L'auteur explique pourquoi ils ont choisi KMM et partage une liste d'éléments couramment partagés via KMM, tels que les modèles de données, l'authentification API, les balises d'analyse, etc. Ils ont également mis en place des tests natifs iOS pour vérifier l'intégration avec l'application principale. Malgré quelques problèmes et limitations, l'auteur recommande l'utilisation de KMM pour accélérer le développement d'applications natives.",
+    link:"https://medium.com/@vladzz/kmm-in-anger-from-an-ios-developers-perspective-46d0f60529d3",
     authorName: 'Vlado Grancaric',
     authorAvatar: '/assets/images/author.jpg',
     createdAt: '15 aout 2021',
@@ -123,10 +133,11 @@ export const blogList = [
   {
     id: 11,
     title: 'Kotlin vs Java',
-    category: 'cooking',
-    subCategory: ['bbq', 'food', 'lifestyle'],
+    category: 'Developpement Kotlin',
+    subCategory: [],
     description:
       "Cet article compare Kotlin et Java dans le contexte du développement d'applications Android. Kotlin a été déclaré langage principal pour le développement d'applications Android lors de la conférence I/O de Google en 2019, ce qui a conduit de nombreuses entreprises à privilégier Kotlin au lieu de Java. L'article discute des avantages de chaque langage, tels que la compatibilité multiplateforme de Java, sa facilité d'apprentissage et ses fonctionnalités de programmation réseau, de sécurité et de performances. En ce qui concerne Kotlin, l'article met en évidence son statut open-source, sa compatibilité avec les frameworks et bibliothèques Java existants, sa facilité d'apprentissage, sa sécurité intégrée pour éviter les erreurs de nullité, et sa concision syntaxique. Les différences techniques entre Kotlin et Java sont également abordées, notamment l'interopérabilité, la gestion des types nuls, l'utilisation des fonctions d'extension, etc. L'article conclut que Kotlin est en train de devenir une option de développement plus stable et cohérente pour Android Studio, offrant une alternative améliorée à Java, bien que les deux langages coexistent actuellement.",
+    link : "https://medium.com/codeburst/kotlin-vs-java-the-great-war-of-android-app-development-68bb4f1ed534",
     authorName: 'Fiza Khan',
     authorAvatar: '/assets/images/author.jpg',
     createdAt: '12 fevrier 2021',
@@ -135,10 +146,11 @@ export const blogList = [
   {
     id: 12,
     title: 'Kotlin vs Flutter',
-    category: 'travel',
-    subCategory: ['vacation', 'holidays', 'sight seeing'],
+    category: 'Developpement Kotlin',
+    subCategory: [],
     description:
       "Cet article vous guide à travers le processus d'installation et de configuration d'IntelliJ IDEA sur votre machine locale. IntelliJ IDEA est un environnement de développement intégré (IDE) créé par JetBrains, conçu pour faciliter le développement de logiciels dans différentes langues. L'article explique comment télécharger et installer IntelliJ IDEA, en fournissant des instructions spécifiques pour les utilisateurs de Mac et de Windows. Il vous apprend également comment configurer votre premier projet Kotlin dans l'IDE et exécuter un programme Kotlin de base. L'accent est mis sur les fonctionnalités offertes par IntelliJ IDEA, telles que l'achèvement de code, le débogage en ligne, les correctifs rapides et les raccourcis clavier, qui aident à améliorer l'expérience de développement et à réduire les erreurs. En fin de compte, l'article souligne les avantages d'utiliser IntelliJ IDEA pour faciliter et accélérer le processus de développement de logiciels dans divers langages.",
+    link:'https://mobiskill.fr/blog/conseils-emploi-tech/kotlin-ou-flutter-pour-le-developpement-multiplateforme/',
     authorName: 'mobiskill',
     authorAvatar: '/assets/images/author.jpg',
     createdAt: '3 mars 2021',
@@ -148,10 +160,11 @@ export const blogList = [
   {
     id: 13,
     title: 'Swift Programming Language',
-    category: 'development',
-    subCategory: ['frontend', 'ui/ux', 'design'],
+    category: 'Developpement Swift',
+    subCategory: [],
     description:
       " Cet article met en avant Swift, un langage de programmation développé par Apple pour créer des applications iOS, Mac, Apple TV et Apple Watch. Swift est présenté comme un langage fiable, intuitif et ouvert à tous. Il est rapide, efficace et offre des retours en temps réel aux développeurs, tout en s'intégrant facilement au code Objective-C existant. Des entreprises comme Airbnb, Khan Academy, LinkedIn et d'autres ont déjà utilisé Swift pour développer des applications performantes. Swift se distingue par ses performances, étant jusqu'à 2,6 fois plus rapide que Objective-C et jusqu'à 8,4 fois plus rapide que Python 2.7 dans certaines situations. De plus, Swift est également utilisé dans le domaine de l'éducation, avec plusieurs universités intégrant Swift à leurs programmes de programmation informatique. Swift est gratuit, open source et disponible pour macOS, iOS, watchOS, tvOS et Linux, avec la possibilité pour la communauté de contribuer au développement du langage. L'article encourage les développeurs à se lancer avec Swift en fournissant des ressources gratuites telles que le livre The Swift Programming Language et l'application Xcode pour le développement d'applications. ",
+    link:'https://www.apple.com/fr/swift ',
     authorName: 'Apple',
     authorAvatar: '/assets/images/author.jpg',
     createdAt: '',
@@ -160,10 +173,11 @@ export const blogList = [
   {
     id: 14,
     title: 'Getting Started with Swift',
-    category: 'travel',
-    subCategory: ['vacation', 'holidays', 'sight seeing'],
+    category: 'Developpement Swift',
+    subCategory: [],
     description:
       "Cet article présente des ressources pour les développeurs utilisant Swift, notamment les outils de développement tels que Xcode et Swift Playgrounds, la documentation complète sur Swift, des vidéos informatives, des livres et programmes d'enseignement, ainsi que des tutoriels pour différents domaines de développement d'applications.",
+    link:"https://developer.apple.com/swift/resources/",
     authorName: 'Apple',
     authorAvatar: '/assets/images/author.jpg',
     createdAt: '',
@@ -172,10 +186,11 @@ export const blogList = [
   {
     id: 15,
     title: 'react native vs swift ',
-    category: 'shopping',
-    subCategory: ['e-commerce store', 'clothing', 'shopping store'],
+    category: 'Developpement Swift',
+    subCategory: [],
     description:
       "Cet article compare React Native et Swift pour le développement d'applications iOS. React Native est un framework JavaScript utilisé pour créer des applications multiplateformes, tandis que Swift est un langage de programmation natif d'Apple. React Native permet de partager du code entre les plateformes, tandis que Swift offre des performances optimisées. Les marques telles que Facebook Ads Manager et WhatsApp ont utilisé respectivement React Native et Swift pour leurs applications. Le choix entre les deux dépend des besoins du projet.",
+    link:"https://medium.com/@jessyvictany/react-native-vs-swift-what-is-the-best-choice-for-cross-platform-app-development-726f98128ce",
     authorName: 'Jessy victany',
     authorAvatar: '/assets/images/author.jpg',
     createdAt: '25 avril 2023',
@@ -184,10 +199,11 @@ export const blogList = [
   {
     id: 16,
     title: 'swift vs kotlin',
-    category: 'adventure',
-    subCategory: ['adrenaline', 'stay-fit', 'lifestyle'],
+    category: 'Developpement Swift',
+    subCategory: [],
     description:
       "Cet article compare les langages de programmation Kotlin et Swift, utilisés respectivement pour le développement d'applications Android et iOS. Les principales différences entre les deux langages sont les suivantes : Kotlin est utilisé pour Android, tandis que Swift est utilisé pour iOS ; Kotlin dispose d'une classe de données, tandis que Swift n'en dispose pas ; Kotlin utilise le signe dollar pour les variables, tandis que Swift utilise des parenthèses et des barres obliques. Les autres différences portent sur la gestion des erreurs, les énumérations, les structs, la gestion de la mémoire, les annotations et les tuples.",
+    link:"https://medium.com/@halilozel1903/kotlin-vs-swift-ebe3779cdf39",
     authorName: 'Halil Özel',
     authorAvatar: '/assets/images/author.jpg',
     createdAt: '10 avril 2023',
@@ -195,12 +211,13 @@ export const blogList = [
   },
   {
     id: 17,
-    title: 'Comment déployer votre application sur un iPhone',
-    category: 'cooking',
-    subCategory: ['bbq', 'food', 'lifestyle'],
+    title: 'Comment déployer votrem  application sur un iPhone',
+    category: 'Developpement Swift',
+    subCategory: [],
     description:
       "Cet article explique comment déployer une application mobile iOS sur un appareil réel pour effectuer des tests et évaluer les problèmes de performance. Il souligne que les bogues peuvent ne pas apparaître sur un simulateur d'iPhone, d'où la nécessité de tester sur un appareil réel. Cependant, cela nécessite des étapes supplémentaires pour garantir la sécurité et l'identification de l'application par Apple. Les exigences comprennent l'adhésion au programme Apple iOS Developer et la possession d'un appareil iOS réel. Le processus implique de demander des certificats de développement et de distribution, de configurer le périphérique pour le développement, de créer un profil d'approvisionnement pour l'application et de s'assurer que l'application utilise ce profil. Enfin, l'article explique comment déployer l'application sur l'appareil. En cas de problèmes, des conseils sont donnés pour résoudre les problèmes éventuels.",
 
+    link:"https://ios.developpez.com/tutoriels/comment-deployer-votre-application-sur-un-iPhone/",  
     authorName: 'Chris Ching',
     authorAvatar: '/assets/images/author.jpg',
     createdAt: '26 fevrier 2016',
@@ -209,12 +226,13 @@ export const blogList = [
   {
     id: 18,
     title: "Le langage Swift d'Apple peine à séduire les développeurs",
-    category: 'cooking',
-    subCategory: ['bbq', 'food', 'lifestyle'],
+    category: 'Developpement Swift',
+    subCategory: [],
     description:
       "Swift, le langage de programmation d'Apple, perd en popularité selon l'indice Tiobe. Les développeurs se tournent vers des frameworks multiplateformes tels que Xamarin, Cordova et Ionic, qui offrent une compatibilité avec différentes plateformes. La limitation de Swift aux produits Apple et l'intérêt croissant pour les environnements multiplateformes expliquent cette baisse. L'indice PyPL confirme cette tendance, mais Swift se classe toujours à la 10e place.",
       
-    authorName: ' Paul Krill',
+    link:"https://www.lemondeinformatique.fr/actualites/lire-le-langage-swift-d-apple-peine-a-seduire-les-developpeurs-69620.html#:~:text=Attirés%20par%20les%20frameworks%20multiplateformes,de%20Swift%20et%20de%20Xcode.",
+      authorName: ' Paul Krill',
     authorAvatar: '/assets/images/author.jpg',
     createdAt: '09 Octobre 2017',
     cover: '/assets/images/designer-1.jpg',
