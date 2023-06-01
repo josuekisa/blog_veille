@@ -231,7 +231,7 @@ export const blogList = [
     description:
       "Swift, le langage de programmation d'Apple, perd en popularité selon l'indice Tiobe. Les développeurs se tournent vers des frameworks multiplateformes tels que Xamarin, Cordova et Ionic, qui offrent une compatibilité avec différentes plateformes. La limitation de Swift aux produits Apple et l'intérêt croissant pour les environnements multiplateformes expliquent cette baisse. L'indice PyPL confirme cette tendance, mais Swift se classe toujours à la 10e place.",
       
-    link:"https://www.lemondeinformatique.fr/actualites/lire-le-langage-swift-d-apple-peine-a-seduire-les-developpeurs-69620.html#:~:text=Attirés%20par%20les%20frameworks%20multiplateformes,de%20Swift%20et%20de%20Xcode.",
+    link:"https://www.lemondeinformatique.fr/actualites/lire-le-langage-swift-d-apple-peine-a-seduire-les-developpeurs",
       authorName: ' Paul Krill',
     authorAvatar: '/assets/images/author.jpg',
     createdAt: '09 Octobre 2017',
